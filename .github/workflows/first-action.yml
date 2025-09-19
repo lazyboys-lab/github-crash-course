@@ -8,3 +8,7 @@ jobs:
         run: echo "Hellow World"
       - name: print Goodbye
         run: echo "Done - Bye"
+      - name: multiline-shell
+        run: |
+            echo "first output"
+            echo "second output"
